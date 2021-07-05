@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13860" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13860" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:55Z">
+      <class name="in.redbus.Tests.SearchPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="setExtent" is-config="true" duration-ms="179" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="intializeWebDriver" is-config="true" duration-ms="2291" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeWebDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="2894" started-at="2021-07-05T09:22:43Z" finished-at="2021-07-05T09:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserEntersValidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="whenUserEntersValidFromAndValidToAndValidDate" duration-ms="7774" started-at="2021-07-05T09:22:46Z" finished-at="2021-07-05T09:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersValidFromAndValidToAndValidDate -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="8" started-at="2021-07-05T09:22:54Z" finished-at="2021-07-05T09:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersValidFromAndValidToAndValidDate status=SUCCESS method=SearchPageTest.whenUserEntersValidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="861" started-at="2021-07-05T09:22:54Z" finished-at="2021-07-05T09:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="endExtent" is-config="true" duration-ms="602" started-at="2021-07-05T09:22:55Z" finished-at="2021-07-05T09:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- in.redbus.Tests.SearchPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

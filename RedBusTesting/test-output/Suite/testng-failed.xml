@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="in.redbus.Tests.BusHirePageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="whenUserDoesNotEnterTillDateAndTimeForOutstation"/>
+          <include name="attachScreenshot"/>
+          <include name="setUp"/>
+          <include name="endExtent"/>
+          <include name="closeBrowser"/>
+          <include name="intializeWebDriver"/>
+          <include name="whenUserEntersValidInformationForOutstation"/>
+          <include name="whenUserDoesNotEnterFromDateAndTimeForOutstation"/>
+        </methods>
+      </class> <!-- in.redbus.Tests.BusHirePageTest -->
+      <class name="in.redbus.Tests.SearchPageTest">
+        <methods>
+          <include name="whenUserEntersValidFromAndValidToAndValidDate"/>
+          <include name="setExtent"/>
+          <include name="attachScreenshot"/>
+          <include name="setUp"/>
+          <include name="endExtent"/>
+          <include name="closeBrowser"/>
+          <include name="intializeWebDriver"/>
+          <include name="whenUserEntersInvalidFromAndValidToAndValidDate"/>
+          <include name="whenUserEntersValidFromAndInvalidToAndValidDate"/>
+        </methods>
+      </class> <!-- in.redbus.Tests.SearchPageTest -->
+      <class name="in.redbus.Tests.TripSummaryPageTest">
+        <methods>
+          <include name="whenUserEntersValidDetail"/>
+          <include name="setExtent"/>
+          <include name="whenUserEntersInvalidMobileNumber"/>
+          <include name="attachScreenshot"/>
+          <include name="setUp"/>
+          <include name="endExtent"/>
+          <include name="closeBrowser"/>
+          <include name="intializeWebDriver"/>
+        </methods>
+      </class> <!-- in.redbus.Tests.TripSummaryPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

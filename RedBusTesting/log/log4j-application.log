@@ -1,0 +1,99 @@
+2021-07-05 16:02:05,682  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:02:09,717  INFO [main] BaseTest509 - Bus Hire link was clicked
+2021-07-05 16:02:12,051  INFO [main] BaseTest513 - Airport Menu was selected
+2021-07-05 16:02:12,581  INFO [main] BaseTest522 - Actual Result : airport
+2021-07-05 16:02:18,115  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:02:22,198  INFO [main] BaseTest458 - Bus Hire link was clicked
+2021-07-05 16:02:24,809  INFO [main] BaseTest462 - Local Menu was selected
+2021-07-05 16:02:29,858  INFO [main] BaseTest474 - Actual Result : local
+2021-07-05 16:02:38,237  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:02:45,895  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:02:48,707  INFO [main] BaseTest127 - Bus Hire link was clicked
+2021-07-05 16:02:54,503  INFO [main] BaseTest131 - OutStation Menu was selected
+2021-07-05 16:02:55,986  INFO [main] BaseTest137 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-07-05 16:03:01,072  INFO [main] BaseTest141 - 10-07-2021-10:00 AM and 11-07-2021-11:15 PM was entered
+2021-07-05 16:03:01,336  INFO [main] BaseTest145 - 11 was entered
+2021-07-05 16:03:02,669  INFO [main] BaseTest149 - Proceed Button was clicked
+2021-07-05 16:03:02,721  INFO [main] BaseTest153 - Actual Result : outstation
+2021-07-05 16:03:09,313  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:03:17,444  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:03:20,448  INFO [main] BaseTest193 - Bus Hire link was clicked
+2021-07-05 16:03:26,380  INFO [main] BaseTest197 - OutStation Menu was selected
+2021-07-05 16:03:29,063  INFO [main] BaseTest201 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-07-05 16:03:33,980  INFO [main] BaseTest207 - 10-07-2021-10:00 AM and 11-07-2021-11:15 PM was entered
+2021-07-05 16:03:34,241  INFO [main] BaseTest211 - 11 was entered
+2021-07-05 16:03:35,563  INFO [main] BaseTest215 - Proceed Button was clicked
+2021-07-05 16:03:35,615  INFO [main] BaseTest219 - Actual Result : outstation
+2021-07-05 16:03:42,396  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:03:45,902  INFO [main] BaseTest395 - Bus Hire link was clicked
+2021-07-05 16:03:52,106  INFO [main] BaseTest399 - OutStation Menu was selected
+2021-07-05 16:03:54,552  INFO [main] BaseTest403 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-07-05 16:03:55,911  INFO [main] BaseTest407 - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-07-05 16:04:00,652  INFO [main] BaseTest411 - 10-07-2021-10:00 AM and 11-07-2021-11:15 PM was entered
+2021-07-05 16:04:00,890  INFO [main] BaseTest415 - 81 was entered
+2021-07-05 16:04:02,146  INFO [main] BaseTest420 - Proceed Button was clicked
+2021-07-05 16:04:02,193  INFO [main] BaseTest423 - Actual Result : outstation
+2021-07-05 16:04:10,373  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:04:13,097  INFO [main] BaseTest58 - Bus Hire link was clicked
+2021-07-05 16:04:19,016  INFO [main] BaseTest62 - OutStation Menu was selected
+2021-07-05 16:04:21,512  INFO [main] BaseTest66 - New Delhi Railway Station, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India location was entered
+2021-07-05 16:04:22,889  INFO [main] BaseTest70 - Greater Noida, Pari Chowk, NRI City, Omega II, Greater Noida, Uttar Pradesh, India location was entered
+2021-07-05 16:04:27,706  INFO [main] BaseTest74 - 10-07-2021-10:00 AM and 11-07-2021-11:15 PM was entered
+2021-07-05 16:04:27,947  INFO [main] BaseTest78 - 11 was entered
+2021-07-05 16:04:29,219  INFO [main] BaseTest82 - Proceed Button was clicked
+2021-07-05 16:04:29,273  INFO [main] BaseTest86 - Actual Result : fill contact details
+2021-07-05 16:04:35,400  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:04:36,517  INFO [main] BaseTest164 - 1542chennai was entered
+2021-07-05 16:04:36,996  INFO [main] BaseTest168 - New Delhi was entered
+2021-07-05 16:04:38,299  INFO [main] BaseTest172 - 17-July 2021 date was entered
+2021-07-05 16:04:43,425  INFO [main] BaseTest177 - search buses button was clicked
+2021-07-05 16:04:43,437  INFO [main] BaseTest182 - Actual Title :book bus travels, ac volvo bus, rpool & bus hire - redbus india
+2021-07-05 16:04:49,936  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:04:50,384  INFO [main] BaseTest109 - New Delhi was entered
+2021-07-05 16:04:50,932  INFO [main] BaseTest113 - 1542chennai was entered
+2021-07-05 16:04:52,209  INFO [main] BaseTest117 - 17-July 2021 date was entered
+2021-07-05 16:04:57,332  INFO [main] BaseTest122 - search buses button was clicked
+2021-07-05 16:04:57,346  INFO [main] BaseTest126 - Title :book bus travels, ac volvo bus, rpool & bus hire - redbus india
+2021-07-05 16:05:05,385  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:05:05,734  INFO [main] BaseTest49 - New Delhi was entered
+2021-07-05 16:05:06,176  INFO [main] BaseTest56 - Patna (Bihar) was entered
+2021-07-05 16:05:07,422  INFO [main] BaseTest60 - 17-July 2021 date was entered
+2021-07-05 16:05:12,556  INFO [main] BaseTest64 - search buses button was clicked
+2021-07-05 16:05:12,571  INFO [main] BaseTest73 - ActualTitle :book bus travels, ac volvo bus, rpool & bus hire - redbus india
+2021-07-05 16:05:20,096  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:05:22,925  INFO [main] BaseTest83 - BusHireLink was clicked
+2021-07-05 16:05:23,023  INFO [main] BaseTest87 - Actual Title :bus hire: rent volvo, ac buses, mini buses, tempo travellers & innova cars - book online
+2021-07-05 16:05:30,546  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:05:33,881  INFO [main] BaseTest159 - BusTickets Link was clicked
+2021-07-05 16:05:34,001  INFO [main] BaseTest163 - Actual Title :online bus tickets booking: book bus ticket and bus reservation -redbus india
+2021-07-05 16:05:41,325  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:05:42,588  INFO [main] BaseTest41 - RPool was clicked
+2021-07-05 16:05:42,619  INFO [main] BaseTest46 - Title :rpool - india’s new carpool & bikepool mobile app
+2021-07-05 16:05:49,568  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:05:50,164  INFO [main] BaseTest121 - RedBusLogo was clicked
+2021-07-05 16:05:50,380  INFO [main] BaseTest125 - Actual Title :book bus travels, ac volvo bus, rpool & bus hire - redbus india
+2021-07-05 16:05:57,897  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:06:01,513  INFO [main] BaseTest50 - Bus Tickets link was clicked
+2021-07-05 16:06:02,738  INFO [main] BaseTest54 - Cancel Ticket was clicked
+2021-07-05 16:06:02,759  INFO [main] BaseTest58 - ActualTitle :cancel ticket - redbus
+2021-07-05 16:06:08,916  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:06:11,739  INFO [main] BaseTest92 - Bus Tickets link was clicked
+2021-07-05 16:06:13,057  INFO [main] BaseTest96 - Print Ticket was clicked
+2021-07-05 16:06:13,382  INFO [main] BaseTest100 - ActualTitle :print ticket
+2021-07-05 16:06:21,050  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:06:23,637  INFO [main] BaseTest139 - Bus Tickets link was clicked
+2021-07-05 16:06:24,707  INFO [main] BaseTest143 - New Delhi location was entered
+2021-07-05 16:06:25,081  INFO [main] BaseTest147 - Patna (Bihar) location was entered
+2021-07-05 16:06:25,343  INFO [main] BaseTest151 - 06-Apr-2021 date was entered
+2021-07-05 16:06:26,693  INFO [main] BaseTest155 - Search Buses was clicked
+2021-07-05 16:06:26,763  INFO [main] BaseTest159 - ActualTitle :search bus tickets
+2021-07-05 16:06:33,358  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:06:54,118  INFO [main] BaseTest105 - Prerequirement for trip summary was executed successfully
+2021-07-05 16:06:55,262  INFO [main] BaseTest111 - Vaibhav Agarwal was entered in name field
+2021-07-05 16:06:55,476  INFO [main] BaseTest115 - vaibhav9aggarwal@gmail.com was entered in email field
+2021-07-05 16:06:55,621  INFO [main] BaseTest119 - 1111111111 was entered in mobile number field
+2021-07-05 16:07:11,088  INFO [main] BaseTest169 - https://www.redbus.in/ page opened...
+2021-07-05 16:07:31,269  INFO [main] BaseTest50 - Prerequirement for trip summary was executed successfully
+2021-07-05 16:07:32,422  INFO [main] BaseTest54 - Vaibhav Agarwal was entered in name field
+2021-07-05 16:07:32,533  INFO [main] BaseTest58 - vaibhav9aggarwal@gmail.com was entered in email field
+2021-07-05 16:07:32,609  INFO [main] BaseTest62 - 9871846160 was entered in mobile number field
