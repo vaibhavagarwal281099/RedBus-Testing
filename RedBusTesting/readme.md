@@ -23,8 +23,9 @@
 > Command to install custom jar : 
 
 '''
+
 java -cp RedBusTesting-0.0.1-SNAPSHOT.jar;RedBusTesting-0.0.1-SNAPSHOT-tests.jar;libs/* org.testng.TestNG ../testng.xml
-// mvn install:install-file -Dfile=C:\Users\narayankrishna\eclipse-workspace\TestCreatedJars\ResourcesCreateJar-0.0.1-SNAPSHOT.jar -DgroupId=com.nagarro -DartifactId=CreateJar -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar
+
 '''
 
 ## How to run through jenkins
@@ -41,7 +42,7 @@ java -jar jenkins.war --httpPort=8080
 ### Screenshots
 
 #### Jenkins Setup 
--:  ./Jenkin Integration With Project Screenshot
+-:  ./Jenkin Integration With Project Screenshot.doc
 
 ## How to run in docker and parallely
 
@@ -76,7 +77,7 @@ docker-compose scale <service name> = <no of instances>
 -	There should be an option to run the test cases in headless mode - **done** 
 -	Implement dockers to run the test cases in parallel - **done** 
 -	Put proper assertions and error screenshot in the extent report - **done** 
--	Create reusable libraries and import these as jars in the current project - **done** (in.redbus.pageUtils)
+-	Create reusable libraries and import these as jars in the current project - **done** (in.redbus.PageUtil)
 -	Create a ReadMe document which has the steps to install and run the code - **done**
 -	Integration with github and Jenkins **done**
 

@@ -24,7 +24,7 @@ public class HomePageTest extends BaseTest{
 		// start the extent report
 		extentTest = extentReport.startTest(testName, testName+" started");
 
-//		 Fetching all test data from excel file
+		//Fetching all test data from excel file
 		HashMap<String, String> testData = new HashMap<String, String>();
 		testData = reader.getRowTestData(sheetName, testName);
 

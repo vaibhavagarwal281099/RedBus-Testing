@@ -1,48 +1,777 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="3" failed="2" ignored="8" total="28" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13860" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:55Z">
+  <suite name="Suite" duration-ms="351456" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:52:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13860" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:55Z">
+    <test name="Test" duration-ms="351456" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:52:32Z">
       <class name="in.redbus.Tests.SearchPageTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="setExtent" is-config="true" duration-ms="179" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:41Z">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="initDriver" is-config="true" duration-ms="70044" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:47:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="intializeWebDriver()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="intializeWebDriver" is-config="true" duration-ms="2291" started-at="2021-07-05T09:22:41Z" finished-at="2021-07-05T09:22:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intializeWebDriver -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="2894" started-at="2021-07-05T09:22:43Z" finished-at="2021-07-05T09:22:46Z">
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="setUp" is-config="true" duration-ms="3982" started-at="2021-07-05T13:47:50Z" finished-at="2021-07-05T13:47:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="whenUserEntersValidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="whenUserEntersValidFromAndValidToAndValidDate" duration-ms="7774" started-at="2021-07-05T09:22:46Z" finished-at="2021-07-05T09:22:54Z">
+        <test-method status="PASS" signature="whenUserEntersInvalidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="whenUserEntersInvalidFromAndValidToAndValidDate" duration-ms="10662" started-at="2021-07-05T13:47:54Z" finished-at="2021-07-05T13:48:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- whenUserEntersValidFromAndValidToAndValidDate -->
-        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="8" started-at="2021-07-05T09:22:54Z" finished-at="2021-07-05T09:22:54Z">
+        </test-method> <!-- whenUserEntersInvalidFromAndValidToAndValidDate -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:48:05Z" finished-at="2021-07-05T13:48:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=whenUserEntersValidFromAndValidToAndValidDate status=SUCCESS method=SearchPageTest.whenUserEntersValidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e] output={null}]]]>
+                <![CDATA[[TestResult name=whenUserEntersInvalidFromAndValidToAndValidDate status=SUCCESS method=SearchPageTest.whenUserEntersInvalidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="861" started-at="2021-07-05T09:22:54Z" finished-at="2021-07-05T09:22:55Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="closeBrowser" is-config="true" duration-ms="1123" started-at="2021-07-05T13:48:05Z" finished-at="2021-07-05T13:48:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="endExtent()[pri:0, instance:in.redbus.Tests.SearchPageTest@2fb0623e]" name="endExtent" is-config="true" duration-ms="602" started-at="2021-07-05T09:22:55Z" finished-at="2021-07-05T09:22:55Z">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="initDriver" is-config="true" duration-ms="59259" started-at="2021-07-05T13:48:06Z" finished-at="2021-07-05T13:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="setUp" is-config="true" duration-ms="5120" started-at="2021-07-05T13:49:05Z" finished-at="2021-07-05T13:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserEntersValidFromAndInvalidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="whenUserEntersValidFromAndInvalidToAndValidDate" duration-ms="9343" started-at="2021-07-05T13:49:10Z" finished-at="2021-07-05T13:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersValidFromAndInvalidToAndValidDate -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:49:20Z" finished-at="2021-07-05T13:49:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersValidFromAndInvalidToAndValidDate status=SUCCESS method=SearchPageTest.whenUserEntersValidFromAndInvalidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="closeBrowser" is-config="true" duration-ms="1068" started-at="2021-07-05T13:49:20Z" finished-at="2021-07-05T13:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="initDriver" is-config="true" duration-ms="37146" started-at="2021-07-05T13:49:21Z" finished-at="2021-07-05T13:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="setUp" is-config="true" duration-ms="3150" started-at="2021-07-05T13:49:58Z" finished-at="2021-07-05T13:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserEntersValidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="whenUserEntersValidFromAndValidToAndValidDate" duration-ms="8902" started-at="2021-07-05T13:50:01Z" finished-at="2021-07-05T13:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersValidFromAndValidToAndValidDate -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:50:10Z" finished-at="2021-07-05T13:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersValidFromAndValidToAndValidDate status=SUCCESS method=SearchPageTest.whenUserEntersValidFromAndValidToAndValidDate()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.SearchPageTest@49b2a47d]" name="closeBrowser" is-config="true" duration-ms="1158" started-at="2021-07-05T13:50:10Z" finished-at="2021-07-05T13:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.redbus.Tests.SearchPageTest -->
+      <class name="in.redbus.Tests.HomePageTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="initDriver" is-config="true" duration-ms="55953" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="setUp" is-config="true" duration-ms="3259" started-at="2021-07-05T13:47:36Z" finished-at="2021-07-05T13:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClickOnBusHireLink()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="whenUserClickOnBusHireLink" duration-ms="4347" started-at="2021-07-05T13:47:40Z" finished-at="2021-07-05T13:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClickOnBusHireLink -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:47:44Z" finished-at="2021-07-05T13:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClickOnBusHireLink status=SUCCESS method=HomePageTest.whenUserClickOnBusHireLink()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="2305" started-at="2021-07-05T13:47:44Z" finished-at="2021-07-05T13:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="initDriver" is-config="true" duration-ms="64328" started-at="2021-07-05T13:47:46Z" finished-at="2021-07-05T13:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="setUp" is-config="true" duration-ms="2987" started-at="2021-07-05T13:48:50Z" finished-at="2021-07-05T13:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClickOnBusTicketLink()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="whenUserClickOnBusTicketLink" duration-ms="4537" started-at="2021-07-05T13:48:53Z" finished-at="2021-07-05T13:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClickOnBusTicketLink -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:48:58Z" finished-at="2021-07-05T13:48:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClickOnBusTicketLink status=SUCCESS method=HomePageTest.whenUserClickOnBusTicketLink()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="2036" started-at="2021-07-05T13:48:58Z" finished-at="2021-07-05T13:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="initDriver" is-config="true" duration-ms="48025" started-at="2021-07-05T13:49:00Z" finished-at="2021-07-05T13:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="setUp" is-config="true" duration-ms="2940" started-at="2021-07-05T13:49:48Z" finished-at="2021-07-05T13:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClickOnRPoolLink()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="whenUserClickOnRPoolLink" duration-ms="2311" started-at="2021-07-05T13:49:51Z" finished-at="2021-07-05T13:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClickOnRPoolLink -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:49:53Z" finished-at="2021-07-05T13:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClickOnRPoolLink status=SUCCESS method=HomePageTest.whenUserClickOnRPoolLink()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="1092" started-at="2021-07-05T13:49:53Z" finished-at="2021-07-05T13:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="initDriver" is-config="true" duration-ms="49202" started-at="2021-07-05T13:49:54Z" finished-at="2021-07-05T13:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="setUp" is-config="true" duration-ms="3219" started-at="2021-07-05T13:50:44Z" finished-at="2021-07-05T13:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClickOnRedBusLogo()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="whenUserClickOnRedBusLogo" duration-ms="1984" started-at="2021-07-05T13:50:47Z" finished-at="2021-07-05T13:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClickOnRedBusLogo -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:50:49Z" finished-at="2021-07-05T13:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClickOnRedBusLogo status=SUCCESS method=HomePageTest.whenUserClickOnRedBusLogo()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.HomePageTest@5be1d0a4]" name="closeBrowser" is-config="true" duration-ms="1006" started-at="2021-07-05T13:50:49Z" finished-at="2021-07-05T13:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.redbus.Tests.HomePageTest -->
+      <class name="in.redbus.Tests.BusHirePageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setExtent" is-config="true" duration-ms="139" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="27868" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="6552" started-at="2021-07-05T13:47:08Z" finished-at="2021-07-05T13:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClickedOnAirportMenu()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserClickedOnAirportMenu" duration-ms="14530" started-at="2021-07-05T13:47:15Z" finished-at="2021-07-05T13:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClickedOnAirportMenu -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="2" started-at="2021-07-05T13:47:29Z" finished-at="2021-07-05T13:47:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClickedOnAirportMenu status=SUCCESS method=BusHirePageTest.whenUserClickedOnAirportMenu()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="2017" started-at="2021-07-05T13:47:29Z" finished-at="2021-07-05T13:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="54746" started-at="2021-07-05T13:47:31Z" finished-at="2021-07-05T13:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="3745" started-at="2021-07-05T13:48:26Z" finished-at="2021-07-05T13:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClickedOnLocalMenu()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserClickedOnLocalMenu" duration-ms="15219" started-at="2021-07-05T13:48:30Z" finished-at="2021-07-05T13:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClickedOnLocalMenu -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="2" started-at="2021-07-05T13:48:45Z" finished-at="2021-07-05T13:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClickedOnLocalMenu status=SUCCESS method=BusHirePageTest.whenUserClickedOnLocalMenu()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="1195" started-at="2021-07-05T13:48:45Z" finished-at="2021-07-05T13:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="54276" started-at="2021-07-05T13:48:46Z" finished-at="2021-07-05T13:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="3038" started-at="2021-07-05T13:49:40Z" finished-at="2021-07-05T13:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="whenUserDoesNotEnterFromDateAndTimeForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserDoesNotEnterFromDateAndTimeForOutstation" duration-ms="3" started-at="2021-07-05T13:49:43Z" finished-at="2021-07-05T13:49:44Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at in.redbus.Utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:51)
+at in.redbus.Tests.BusHirePageTest.whenUserDoesNotEnterFromDateAndTimeForOutstation(BusHirePageTest.java:250)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserDoesNotEnterFromDateAndTimeForOutstation -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T13:49:44Z" finished-at="2021-07-05T13:49:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserDoesNotEnterFromDateAndTimeForOutstation status=SKIP method=BusHirePageTest.whenUserDoesNotEnterFromDateAndTimeForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="998" started-at="2021-07-05T13:49:44Z" finished-at="2021-07-05T13:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="30379" started-at="2021-07-05T13:49:45Z" finished-at="2021-07-05T13:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="3274" started-at="2021-07-05T13:50:15Z" finished-at="2021-07-05T13:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserDoesNotEnterFromLocationForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserDoesNotEnterFromLocationForOutstation" duration-ms="21056" started-at="2021-07-05T13:50:18Z" finished-at="2021-07-05T13:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserDoesNotEnterFromLocationForOutstation -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:50:39Z" finished-at="2021-07-05T13:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserDoesNotEnterFromLocationForOutstation status=SUCCESS method=BusHirePageTest.whenUserDoesNotEnterFromLocationForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="1065" started-at="2021-07-05T13:50:39Z" finished-at="2021-07-05T13:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="13084" started-at="2021-07-05T13:50:40Z" finished-at="2021-07-05T13:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="3028" started-at="2021-07-05T13:50:53Z" finished-at="2021-07-05T13:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="whenUserDoesNotEnterTillDateAndTimeForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserDoesNotEnterTillDateAndTimeForOutstation" duration-ms="4" started-at="2021-07-05T13:50:56Z" finished-at="2021-07-05T13:50:56Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at in.redbus.Utils.CommonUtils.toCheckExecutionRequired(CommonUtils.java:51)
+at in.redbus.Tests.BusHirePageTest.whenUserDoesNotEnterTillDateAndTimeForOutstation(BusHirePageTest.java:318)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserDoesNotEnterTillDateAndTimeForOutstation -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="2" started-at="2021-07-05T13:50:56Z" finished-at="2021-07-05T13:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserDoesNotEnterTillDateAndTimeForOutstation status=SKIP method=BusHirePageTest.whenUserDoesNotEnterTillDateAndTimeForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="998" started-at="2021-07-05T13:50:56Z" finished-at="2021-07-05T13:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="3505" started-at="2021-07-05T13:50:57Z" finished-at="2021-07-05T13:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="2833" started-at="2021-07-05T13:51:01Z" finished-at="2021-07-05T13:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserDoesNotEnterToLocationForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserDoesNotEnterToLocationForOutstation" duration-ms="22893" started-at="2021-07-05T13:51:04Z" finished-at="2021-07-05T13:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserDoesNotEnterToLocationForOutstation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="1022" started-at="2021-07-05T13:51:27Z" finished-at="2021-07-05T13:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T13:51:27Z" finished-at="2021-07-05T13:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserDoesNotEnterToLocationForOutstation status=SUCCESS method=BusHirePageTest.whenUserDoesNotEnterToLocationForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="3486" started-at="2021-07-05T13:51:28Z" finished-at="2021-07-05T13:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="2917" started-at="2021-07-05T13:51:31Z" finished-at="2021-07-05T13:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserEntersPassengerNumberGreaterThan60ForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserEntersPassengerNumberGreaterThan60ForOutstation" duration-ms="24374" started-at="2021-07-05T13:51:34Z" finished-at="2021-07-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersPassengerNumberGreaterThan60ForOutstation -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:51:58Z" finished-at="2021-07-05T13:51:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersPassengerNumberGreaterThan60ForOutstation status=SUCCESS method=BusHirePageTest.whenUserEntersPassengerNumberGreaterThan60ForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="1117" started-at="2021-07-05T13:51:58Z" finished-at="2021-07-05T13:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="initDriver" is-config="true" duration-ms="3714" started-at="2021-07-05T13:52:00Z" finished-at="2021-07-05T13:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="setUp" is-config="true" duration-ms="3234" started-at="2021-07-05T13:52:03Z" finished-at="2021-07-05T13:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserEntersValidInformationForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="whenUserEntersValidInformationForOutstation" duration-ms="24141" started-at="2021-07-05T13:52:06Z" finished-at="2021-07-05T13:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersValidInformationForOutstation -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:52:31Z" finished-at="2021-07-05T13:52:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersValidInformationForOutstation status=SUCCESS method=BusHirePageTest.whenUserEntersValidInformationForOutstation()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="closeBrowser" is-config="true" duration-ms="1062" started-at="2021-07-05T13:52:31Z" finished-at="2021-07-05T13:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:in.redbus.Tests.BusHirePageTest@2fb0623e]" name="endExtent" is-config="true" duration-ms="528" started-at="2021-07-05T13:52:32Z" finished-at="2021-07-05T13:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExtent -->
-      </class> <!-- in.redbus.Tests.SearchPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- in.redbus.Tests.BusHirePageTest -->
+      <class name="in.redbus.Tests.BusTicketsPageTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="initDriver" is-config="true" duration-ms="4564" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="setUp" is-config="true" duration-ms="3403" started-at="2021-07-05T13:46:45Z" finished-at="2021-07-05T13:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="whenUserClicksOnCancellationLink()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="whenUserClicksOnCancellationLink" duration-ms="7625" started-at="2021-07-05T13:46:48Z" finished-at="2021-07-05T13:46:56Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <a id="redBus" class="selectedBus site-links" href="https://www.redbus.in/bus-tickets/"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 745, moz:profile: /tmp/rust_mozprofileSnwnjO, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.72-microsoft-standard-WSL2, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 047aa387-14a9-49ed-a163-893...}
+Session ID: 047aa387-14a9-49ed-a163-8933c3c06071]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <a id="redBus" class="selectedBus site-links" href="https://www.redbus.in/bus-tickets/"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 745, moz:profile: /tmp/rust_mozprofileSnwnjO, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.72-microsoft-standard-WSL2, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 047aa387-14a9-49ed-a163-893...}
+Session ID: 047aa387-14a9-49ed-a163-8933c3c06071
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at in.redbus.Pages.HomePage.clickOnBusTicketsLink(HomePage.java:44)
+at in.redbus.Tests.BusTicketsPageTest.whenUserClicksOnCancellationLink(BusTicketsPageTest.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClicksOnCancellationLink -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="attachScreenshot" is-config="true" duration-ms="562" started-at="2021-07-05T13:46:56Z" finished-at="2021-07-05T13:46:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClicksOnCancellationLink status=FAILURE method=BusTicketsPageTest.whenUserClicksOnCancellationLink()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="closeBrowser" is-config="true" duration-ms="4457" started-at="2021-07-05T13:46:56Z" finished-at="2021-07-05T13:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="initDriver" is-config="true" duration-ms="69935" started-at="2021-07-05T13:47:01Z" finished-at="2021-07-05T13:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="setUp" is-config="true" duration-ms="3315" started-at="2021-07-05T13:48:11Z" finished-at="2021-07-05T13:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserClicksOnPrintTicket()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="whenUserClicksOnPrintTicket" duration-ms="6383" started-at="2021-07-05T13:48:14Z" finished-at="2021-07-05T13:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserClicksOnPrintTicket -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="attachScreenshot" is-config="true" duration-ms="2" started-at="2021-07-05T13:48:21Z" finished-at="2021-07-05T13:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserClicksOnPrintTicket status=SUCCESS method=BusTicketsPageTest.whenUserClicksOnPrintTicket()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="closeBrowser" is-config="true" duration-ms="1342" started-at="2021-07-05T13:48:21Z" finished-at="2021-07-05T13:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="initDriver" is-config="true" duration-ms="63115" started-at="2021-07-05T13:48:22Z" finished-at="2021-07-05T13:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="setUp" is-config="true" duration-ms="3099" started-at="2021-07-05T13:49:25Z" finished-at="2021-07-05T13:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="whenUserEnterValidInfoInSearchBus()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="whenUserEnterValidInfoInSearchBus" duration-ms="7594" started-at="2021-07-05T13:49:28Z" finished-at="2021-07-05T13:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEnterValidInfoInSearchBus -->
+        <test-method status="PASS" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:49:36Z" finished-at="2021-07-05T13:49:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEnterValidInfoInSearchBus status=SUCCESS method=BusTicketsPageTest.whenUserEnterValidInfoInSearchBus()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.BusTicketsPageTest@415b0b49]" name="closeBrowser" is-config="true" duration-ms="1158" started-at="2021-07-05T13:49:36Z" finished-at="2021-07-05T13:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.redbus.Tests.BusTicketsPageTest -->
+      <class name="in.redbus.Tests.TripSummaryPageTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="initDriver" is-config="true" duration-ms="4564" started-at="2021-07-05T13:46:40Z" finished-at="2021-07-05T13:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="setUp" is-config="true" duration-ms="6407" started-at="2021-07-05T13:46:45Z" finished-at="2021-07-05T13:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="whenUserEntersInvalidMobileNumber()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="whenUserEntersInvalidMobileNumber" duration-ms="12910" started-at="2021-07-05T13:46:51Z" finished-at="2021-07-05T13:47:04Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+at in.redbus.Pages.BusHirePage.enterPickUpLocation(BusHirePage.java:125)
+at in.redbus.Utils.Prerequirements.preRequirementForTripSummary(Prerequirements.java:42)
+at in.redbus.Tests.TripSummaryPageTest.whenUserEntersInvalidMobileNumber(TripSummaryPageTest.java:104)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersInvalidMobileNumber -->
+        <test-method status="FAIL" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="attachScreenshot" is-config="true" duration-ms="1" started-at="2021-07-05T13:47:04Z" finished-at="2021-07-05T13:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=whenUserEntersInvalidMobileNumber status=FAILURE method=TripSummaryPageTest.whenUserEntersInvalidMobileNumber()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at in.redbus.Utils.UseScreenshots.getScreenshot(UseScreenshots.java:22)
+at in.redbus.Tests.BaseTest.attachScreenshot(BaseTest.java:192)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T13:47:04Z" finished-at="2021-07-05T13:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="initDriver()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="initDriver" is-config="true" duration-ms="0" started-at="2021-07-05T13:47:04Z" finished-at="2021-07-05T13:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="setUp" is-config="true" duration-ms="0" started-at="2021-07-05T13:47:04Z" finished-at="2021-07-05T13:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="whenUserEntersValidDetail()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="whenUserEntersValidDetail" duration-ms="0" started-at="2021-07-05T13:47:04Z" finished-at="2021-07-05T13:47:04Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VAIBHAVAGARWAL', ip: '192.168.29.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at in.redbus.Utils.UseScreenshots.getScreenshot(UseScreenshots.java:22)
+at in.redbus.Tests.BaseTest.attachScreenshot(BaseTest.java:192)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenUserEntersValidDetail -->
+        <test-method status="SKIP" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="attachScreenshot" is-config="true" duration-ms="0" started-at="2021-07-05T13:47:04Z" finished-at="2021-07-05T13:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:in.redbus.Tests.TripSummaryPageTest@6d5620ce]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-07-05T13:47:04Z" finished-at="2021-07-05T13:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.redbus.Tests.TripSummaryPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

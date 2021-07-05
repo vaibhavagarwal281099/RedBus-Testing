@@ -84,7 +84,7 @@ public class BaseTest {
 		extentReport.flush();
 	}
 
-///*
+/*
 	@BeforeMethod
 	public static void intializeWebDriver() {
 
@@ -113,9 +113,9 @@ public class BaseTest {
         }
         
     }
-//*/
+*/
 	
-//	@BeforeMethod
+	@BeforeMethod
 	public void initDriver() throws MalformedURLException {
 
 		
